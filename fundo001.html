@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background test</title>
+    <style>
+
+        :root {
+
+            --cor01: rgb(0, 8, 83);
+            --cor02: rgb(43, 0, 83);
+            --cor03: rgb(59, 0, 83);
+            --cor04: rgb(83, 0, 83);            
+        }
+        body {
+            background-color: black;
+        }
+        div.square {
+            border: 1px solid black;
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: rgb(76, 0, 128);
+        }
+
+        div#qd1 {
+            background-image: linear-gradient(to right, rgb(0, 8, 83), rgb(43, 0, 83))
+        }
+
+        div#qd2 {
+            background-image: linear-gradient(to right, rgb(43, 0, 83), rgb(59, 0, 83))
+        }
+
+        div#qd3 {
+            background-image: linear-gradient(to right, rgb(59, 0, 83), rgb(83, 0, 83))
+        }
+
+        div.ret {
+            display: inline-block;
+            width: 650px;
+            height: 300px;
+            border: 1px solid white;
+            background-image: url('imagens/wallpaper001.png');
+        }
+
+        div#ret1 {
+            
+        }
+
+        div#ret2 {
+            
+        }
+
+        div#ret3 {
+            
+        }
+
+        div#ret4 {
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--<div class="square" id="qd1"></div>
+    <div class="square" id="qd2"></div>
+    <div class="square" id="qd3"></div>-->
+
+    <div class="ret" id="ret1"></div>
+    <div class="ret" id="ret2"></div>
+    <div class="ret" id="ret3"></div>
+    <div class="ret" id="ret4"></div>
+</body>
+</html>
